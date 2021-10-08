@@ -5,11 +5,15 @@
    "main": "./src/main.js",
    "author": "Lucas Bueno",
    "license": "MIT",
-   "keywords": ["Electron", "Device Screen"],
+   "keywords": [
+      "Electron",
+      "Device Screen"
+   ],
    "scripts": {
       "start": "electron ."
    },
    "dependencies": {
-      "electron": "^15.1.1"
+      "electron": "^15.1.1",
+      "nodemon": "^2.0.13"
    }
 }

@@ -4,9 +4,9 @@ let mainWindow;
 
 app.on('ready', () => {
    mainWindow = new BrowserWindow({
-      width: 345,
-      height: 767,
-      // frame: false,
+      width: 415,
+      height: 691,
+      frame: false,
       titleBarStyle: 'hidden',
       alwaysOnTop: true,
       backgroundColor: '#00000000',
@@ -14,5 +14,4 @@ app.on('ready', () => {
    });
 
    mainWindow.loadURL(`file://${__dirname}/public/index.html`);
-
 });
