@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow: hidden;
+  color: #00000000;
+}
+
+.move {
+  width: 70px;
+  height: 70px;
+  background: #000;
+  border-radius: 60px;
+  -webkit-app-region: drag;
+}/*# sourceMappingURL=styles.css.map */

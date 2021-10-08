@@ -1,0 +1,15 @@
+{
+   "name": "scrcpy-device-screen-border",
+   "version": "1.0.0",
+   "description": "Device Screen for scrcpy emulator.",
+   "main": "./src/main.js",
+   "author": "Lucas Bueno",
+   "license": "MIT",
+   "keywords": ["Electron", "Device Screen"],
+   "scripts": {
+      "start": "electron ."
+   },
+   "dependencies": {
+      "electron": "^15.1.1"
+   }
+}
